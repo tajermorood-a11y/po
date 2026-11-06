@@ -1,0 +1,1 @@
+module.exports = {expo:{name:'فانتوم',slug:'phantom',version:'1.0.0',orientation:'portrait',userInterfaceStyle:'dark',scheme:'phantom',plugins:['expo-router'],android:{package:'com.yourname.phantom'},ios:{bundleIdentifier:'com.yourname.phantom',supportsTablet:false},experiments:{typedRoutes:false}}};

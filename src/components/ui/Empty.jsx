@@ -1,0 +1,1 @@
+import React from 'react';import {Text,View} from 'react-native';import {COLORS} from '../../constants/config';import {S} from '../../constants/strings';export default function Empty({text=S.noData}){return <View style={{padding:28,alignItems:'center'}}><Text style={{color:COLORS.muted,textAlign:'center'}}>{text}</Text></View>}

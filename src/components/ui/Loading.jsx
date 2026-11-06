@@ -1,0 +1,1 @@
+import React from 'react';import {View,ActivityIndicator,Text} from 'react-native';import {COLORS} from '../../constants/config';import {S} from '../../constants/strings';export default function Loading(){return <View style={{padding:30,alignItems:'center'}}><ActivityIndicator color={COLORS.accent}/><Text style={{color:COLORS.muted,marginTop:10}}>{S.loading}</Text></View>}
